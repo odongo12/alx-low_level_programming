@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file; Creates the file.
+ * create_file- Creates the file.
  * @filename: pointer to the name of the file to be created.
  * @text_content:  pointer to the string to write to the file.
  *
@@ -31,3 +31,4 @@ int create_file(const char *filename, char *text_content)
 
 	return (1);
 }
+
